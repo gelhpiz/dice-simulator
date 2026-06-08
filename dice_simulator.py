@@ -12,7 +12,7 @@ def lanzar_dados(amount: int, sides: int) -> list:
 
 if __name__ == "__main__":
     amount = 5
-    sides = 6
+    sides = 20
     resultados = lanzar_dados(amount, sides)
     for i, valor in enumerate(resultados, start=1):
         print(f"Lanzamiento {i} número obtenido {valor}")
